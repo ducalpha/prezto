@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-ln -sf $(pwd) /home/ducalpha/.zprezto && echo "Created symlink for ~/.zprezto"
+ln -sfn $(pwd) $HOME/.zprezto && echo "Created symlink for $HOME/.zprezto"
 
 
 setopt EXTENDED_GLOB
